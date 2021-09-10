@@ -11,6 +11,7 @@ body {
     color: #F2EEAE;
     background: rgb(38,1,1);
     background: linear-gradient(180deg, rgba(38,1,1,1) 0%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
 }
 .foto {
     width: 100px;
@@ -56,6 +57,8 @@ h2 {
     border: 5px solid white;
     border-radius: 4px;
     padding: 15px 20px;
+}
+.link-list  .list1 li {
     box-shadow: 0 0 4px white;
 }
 .link-list a {
@@ -67,8 +70,11 @@ h2 {
 .link-list span {
     display: block;
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
     font-weight: 100;
+}
+.list2 {
+    margin-top: 50px;
 }
 
